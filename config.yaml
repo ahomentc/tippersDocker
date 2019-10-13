@@ -1,0 +1,14 @@
+serviceConfig:
+  scheme: http://
+  hostName: 127.0.0.1
+  port: 4001
+  path: /api/
+
+databaseConfig:
+  dbUsername: root
+  dbPassword: mypassword
+  dbHostname: localhost
+  dbPort: 6603
+  dbDriver: com.mysql.cj.jdbc.Driver
+  dbName: tippers_test
+  dbSettings: ?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
