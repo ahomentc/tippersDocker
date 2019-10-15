@@ -1,13 +1,13 @@
 serviceConfig:
   scheme: http://
-  hostName: 172.17.0.2
+  hostName: localhost
   port: 4001
   path: /api/
 
 databaseConfig:
   dbUsername: root
   dbPassword: mypassword
-  dbHostname: localhost
+  dbHostname: 127.0.0.1
   dbPort: 6603
   dbDriver: com.mysql.cj.jdbc.Driver
   dbName: tippers_test
