@@ -5,10 +5,10 @@ serviceConfig:
   path: /api/
 
 databaseConfig:
-  dbUsername: root
-  dbPassword: mypassword
-  dbHostname: 127.0.0.1
-  dbPort: 6603
+  dbHostname: localhost
+  dbUsername: user
+  dbPassword: tippersrules
+  dbPort: 6605
   dbDriver: com.mysql.cj.jdbc.Driver
   dbName: tippers_test
   dbSettings: ?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
