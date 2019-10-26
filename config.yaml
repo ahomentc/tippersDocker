@@ -8,7 +8,7 @@ databaseConfig:
   dbHostname: localhost
   dbUsername: user
   dbPassword: tippersrules
-  dbPort: 6605
+  dbPort: 3306
   dbDriver: com.mysql.cj.jdbc.Driver
   dbName: tippers_test
   dbSettings: ?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
