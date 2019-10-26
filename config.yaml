@@ -6,8 +6,8 @@ serviceConfig:
 
 databaseConfig:
   dbHostname: localhost
-  dbUsername: user
-  dbPassword: tippersrules
+  dbUsername: root
+  dbPassword: mypassword
   dbPort: 3306
   dbDriver: com.mysql.cj.jdbc.Driver
   dbName: tippers_test
