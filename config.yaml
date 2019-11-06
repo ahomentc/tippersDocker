@@ -7,8 +7,8 @@ serviceConfig:
 databaseConfig:
   dbHostname: 0.0.0.0
   dbUsername: root
-  dbPassword: mypassword
-  dbPort: 6606
+  dbPassword: password
+  dbPort: 6070
   dbDriver: com.mysql.cj.jdbc.Driver
   dbName: tippers_test
   dbSettings: ?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
